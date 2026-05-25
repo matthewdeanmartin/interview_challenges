@@ -12,6 +12,8 @@ python = "^3.12"
 
 
 [tool.uv]
+
+[tool.uv.pip]
 universal = true
 [build-system]
 requires = ["poetry-core"]
