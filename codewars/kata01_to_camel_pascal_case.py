@@ -39,3 +39,4 @@ def to_camel_case(text):
 
     return almost_done
 
+print(to_camel_case("abc_abc"))

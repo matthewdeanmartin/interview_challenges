@@ -15,3 +15,7 @@ class Solution:
         if the_reverse > (2**31) - 1:
             return 0
         return the_reverse
+
+
+print(Solution().reverse(123))
+print(Solution().reverse(456))
