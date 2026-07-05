@@ -8,7 +8,7 @@ class Solution:
         # brute force
         for i in range(1, x + 1):
             current_error = abs(x - (i * i))
-            print(i, current_error)
+            # print(i, current_error)
             if current_error < error:
                 best = i
                 error = current_error
@@ -20,5 +20,6 @@ class Solution:
         # Nope, this doesn't work
         return best - 1
 
-
-
+print(Solution().mySqrt(16), pow(16, 0.5))
+print(Solution().mySqrt(100), pow(100, 0.5))
+print(Solution().mySqrt(-100), pow(-100, 0.5))
